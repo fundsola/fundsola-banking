@@ -1,24 +1,29 @@
-[
-  {
-    "bankName": "Axos Bank",
-    "link": "https://fxo.co/IpNt",
-    "logo": "https://images.squarespace-cdn.com/content/v1/671413614bb9347fe1bd6e63/eec8dc42-27a2-46a3-91b0-4b4414d0cefa/Axos_bank_fundsola.png?format=1000w",
-    "open": "$0 minimum deposit to open",
-    "apy": "4.86%",
-    "monthlyFee": "$0 (No Fees!)",
-    "rating": "★★★★★",
-    "accountFeatures": "Unlimited Transfers, No Maintenance Fees, No Overdraft Fees",
-    "verified": true
-  },
-  {
-    "bankName": "Quontic Bank",
-    "link": "https://fxo.co/Iq1M",
-    "logo": "https://images.squarespace-cdn.com/content/v1/671413614bb9347fe1bd6e63/0a0d4451-99f6-4f2d-86e3-12563205f104/Quontic_bank_fundsola_logo_checking_account.jpg?format=1000w",
-    "open": "$100 minimum deposit to open",
-    "apy": "4.75%",
-    "monthlyFee": "$0 (No Fees!)",
-    "rating": "★★★★★",
-    "accountFeatures": "Quontic is the adaptive digital bank that empowers its customers financially while embracing their diverse circumstances.",
-    "verified": true
-  }
-]
+{
+  "personalChecking": [
+    {
+      "bankName": "Axos Bank",
+      "url": "https://fxo.co/IpNt",
+      "bankLogo": "https://images.squarespace-cdn.com/content/v1/671413614bb9347fe1bd6e63/eec8dc42-27a2-46a3-91b0-4b4414d0cefa/Axos_bank_fundsola.png?format=1000w",
+      "minDeposit": "$0 minimum deposit to open",
+      "apy": "4.86%",
+      "monthlyFee": "$0 (No Fees!)",
+      "fdIcLogo": "https://img.icons8.com/?size=100&id=98A4yZTt9abw&format=png&color=000000",
+      "rating": "5.0",
+      "features": "Unlimited Transfers, No Maintenance Fees, No Overdraft Fees"
+    },
+    {
+      "bankName": "Quontic Bank",
+      "url": "https://fxo.co/Iq1M",
+      "bankLogo": "https://images.squarespace-cdn.com/content/v1/671413614bb9347fe1bd6e63/0a0d4451-99f6-4f2d-86e3-12563205f104/Quontic_bank_fundsola_logo_checking_account.jpg?format=1000w",
+      "minDeposit": "$100 minimum deposit to open",
+      "apy": "4.75%",
+      "monthlyFee": "$0 (No Fees!)",
+      "fdIcLogo": "https://img.icons8.com/?size=100&id=98A4yZTt9abw&format=png&color=000000",
+      "rating": "5.0",
+      "features": "Quontic is the adaptive digital bank that empowers its customers financially."
+    }
+  ],
+  "businessChecking": [
+    // Similar data for business checking cards
+  ]
+}
